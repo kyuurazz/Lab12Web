@@ -167,7 +167,7 @@ php spark routes
 
 - Selanjutnya akan muncul daftar route yang telah dibuat.
 
-[Routes](img/routes.png)
+![Routes](img/routes.png)
 
 - Seperti yang terlihat, satu baris kode routes yang di tambahkan akan menghasilkan banyak
 Endpoint.
@@ -177,14 +177,14 @@ Endpoint.
 ## Testing REST API CodeIgniter
 - Buka aplikasi postman dan pilih create new → HTTP Request
 
-[Postman](img/postman.png)
+![Postman](img/postman.png)
 
 ### Menampilkan Semua Data 
 - Pilih method GET dan masukkan URL berikut: http://localhost:8080/post
 - Lalu, klik Send. Jika hasil test menampilkan semua data artikel dari database, maka pengujian
 berhasil.
 
-[Menampilkan Semua Data di Postman](img/menampilkan_semua_data_postman.png)
+![Menampilkan Semua Data di Postman](img/menampilkan_semua_data_postman.png)
 
 ### Menampilkan Data Spesifik
 - Masih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL
@@ -193,7 +193,7 @@ seperti ini: http://localhost:8080/post/5
 - Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID
 nomor 5 di database.
 
-[Menampilkan Data Spesifik di Postman](img/menampilkan_data_spesifik_postman.png)
+![Menampilkan Data Spesifik di Postman](img/menampilkan_data_spesifik_postman.png)
 
 ### Mengubah Data
 - Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel
@@ -202,11 +202,11 @@ URL berikut: http://localhost:8080/post/5
 - Selanjutnya, Masukkan nama atribut tabel pada kolom KEY dan nilai data yang baru pada kolom VALUE. Kalau sudah,
 klik Send.
 
-[Mengubah Data di Postman](img/mengubah_data_postman.png)
+![Mengubah Data di Postman](img/mengubah_data_postman.png)
 
 - Maka hasilnya akan seperti ini.
 
-[Hasil Ubah Data](img/hasil_ubah_data.png)
+![Hasil Ubah Data](img/hasil_ubah_data.png)
 
 ### Menghapus Data
 - Pilih method DELETE untuk menghapus data. Lalu, masukkan URL spesifik data mana yang
@@ -214,7 +214,7 @@ ingin di hapus. Misalnya, ingin menghapus data nomor 16, maka URL-nya seperti in
 - Langsung saja klik Send, maka akan mendapatkan pesan bahwa data telah berhasil dihapus dari
 database.
 
-[Menghapus Data di Postman](img/menghapus_data_postman.png)
+![Menghapus Data di Postman](img/menghapus_data_postman.png)
 
 ## Pertanyaan dan Tugas
 <p>Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.</p>
